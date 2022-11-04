@@ -1,11 +1,13 @@
-## set up your personal vpn (v2ray -> vmess)
+# set up your personal vpn 
+### (v2ray -> vmess & shadowsocks)
 
-* requirements: *
+
+### requirements: *
 
 - bridge server (ubuntu)
 - main server (ubuntu)
 
-# step1: setup main server
+## step1: setup main server
 ssh to your server and follow this steps
 1. ```sudo su```
 2. ``` apt update ```
@@ -22,7 +24,7 @@ ssh to your server and follow this steps
 >  ```systemctl status v2ray.service```
 > check if there is error in v2ray status
 
-# step2: setup bridge sever
+## step2: setup bridge sever
 ssh to your server and follow this steps
 1. ```sudo su```
 2. ``` apt update ```
@@ -41,17 +43,23 @@ ssh to your server and follow this steps
 
 #### at this point your servers are ready! 
 you can connect your servers through vmess and shadowsocks
+
+<hr>
+
+# client
 ##### vmess:
-- mac: use v2ray core  (for more info read [this](#) )
-- windows: use v2ray aplication 
-- ios: use napsternetv
-- android: use V2reyNg or oneclick
+- mac: use v2ray core  (for more info read [this](#connect-vmess-on-mac))
+- windows: use v2ray aplication  (file attached)
+- ios: use napsternetv [download](https://apps.apple.com/app/id1629465476)
+- android: use V2reyNg (file attached) or oneclick  (file attached)
 ##### shadowsocks: 
-- mac(apple siclicon): use oneclick
-- mac(intell): use shadowsocks
-- windows: use shadowsocks
-- ios: use oneclick
-- android: use one click or V2reyNg
+- mac(apple siclicon): use oneclick [download](https://apps.apple.com/us/app/oneclick-safe-easy-fast/id1545555197)
+- mac(intell): use shadowsocks (file attached)
+- windows: use shadowsocks (file attached)
+- ios: use oneclick [download](https://apps.apple.com/app/id1545555197)
+- android: use one click or V2reyNg (file attached)
+
+<hr>
 
 
 ### connect vmess on mac 
