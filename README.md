@@ -74,3 +74,17 @@ make sure you installed homebrew ([install brew](https://brew.sh))
 8. to disable vpn use `networksetup -setsocksfirewallproxystate Wi-Fi off` and stop first window using `^`+`c`
 
 
+<hr>
+
+
+### how to share
+vmess:
+
+* modfidy this json:
+  ```{"add":"ip","aid":"alertId","host":"hostUrl","id":"USER_ID","net":"tcp","path":"","port":"Port","ps":"PROFILE_DISPLAY_NAME","scy":"auto","sni":"","tls":"","type":"http","v":"2"}```
+
+* make it base 64 [online base64 encoder](https://www.base64encode.org/)
+* use this pathern ```vmess://{BASE64}```
+
+shadow socks:
+
