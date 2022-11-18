@@ -11,7 +11,7 @@
 ssh to your server and follow this steps
 1. ```sudo su```
 2. ``` apt update ```
-3. ```apt install v2ray ```
+3. ```bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)``` or(if not worked caused by internet restriction) ```apt install v2ray ```  
 4. ```vim /usr/local/etc/v2ray/config.json```
 5. copy and paste the attached file [main_server_config.josn](/configs/main_server_config.json) 
 6. **modify** this lines **3,12,32** (more info is in the file)
