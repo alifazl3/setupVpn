@@ -23,9 +23,12 @@ close it from bottom icon too
 #### connect v2ray server
 
 1. click on servers and open 
+2. 
 <img src="img/add-server.jpg" />
-2. fill the inputs
-3. you must change ```system proxy``` to ```set system proxy``` and ```routing``` to ```global```
+
+2. fill the inputs 
+ 
+3. you must change```system proxy``` to ```set system proxy``` and```routing``` to ```global```
 
 
 <img src="img/sys-proxy.jpg" />
