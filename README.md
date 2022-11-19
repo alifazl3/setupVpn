@@ -74,6 +74,11 @@ make sure you installed homebrew ([install brew](https://brew.sh))
 8. to disable vpn use `networksetup -setsocksfirewallproxystate Wi-Fi off` and stop first window using `^`+`c`
 
 
+**you can use it for just one terminal tab using:**
+
+```export http_proxy=socks5://127.0.0.1:10808``` 
+
+
 <hr>
 
 ### need to monitor your server resources??
