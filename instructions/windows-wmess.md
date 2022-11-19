@@ -25,3 +25,8 @@ close it from bottom icon too
 1. click on servers and open 
 <img src="img/add-server.jpg" />
 2. fill the inputs
+3. you must change ```system proxy``` to ```set system proxy``` and ```routing``` to ```global```
+
+
+<img src="img/sys-proxy.jpg" />
+<img src="img/routing.jpg" />
