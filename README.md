@@ -49,7 +49,7 @@ you can connect your servers through vmess and shadowsocks
 # client
 ##### vmess:
 - mac: use v2ray core  (for more info read [this](#connect-vmess-on-mac))
-- windows: use [v2ray aplication](/client/windows/v2rayN-Core.zip)
+- windows: use [v2ray aplication](/client/windows/v2rayN-Core.zip) for instruction read [this](/instructions/windows-wmess.md)
 - ios: use napsternetv [download](https://apps.apple.com/app/id1629465476)
 - android: use [V2reyNg](/client/android/v2rayNG.apk) or [oneclick](/client/android/oneclick.apk)
 ##### shadowsocks: 
@@ -80,6 +80,12 @@ make sure you installed homebrew ([install brew](https://brew.sh))
 
 
 <hr>
+
+### connect vmess on windows
+> Read [this](/instructions/windows-wmess.md)
+
+<hr>
+
 
 ### need to monitor your server resources??
 
