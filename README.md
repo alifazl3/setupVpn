@@ -76,15 +76,35 @@ make sure you installed homebrew ([install brew](https://brew.sh))
 
 <hr>
 
+### need to monitor your server resources??
+
+#### cpu:
+
+use ```top -i``` it is ubuntu built in command
+
+#### network card:
+
+```apt install slurm```
+
+```ip link show```
+
+```slurm -i <ANY-CARD>```
+
+<hr>
+
 
 ### how to share
 vmess:
 
 * modfidy this json:
-  ```{"add":"ip","aid":"alertId","host":"hostUrl","id":"USER_ID","net":"tcp","path":"","port":"Port","ps":"PROFILE_DISPLAY_NAME","scy":"auto","sni":"","tls":"","type":"http","v":"2"}```
+
+```{"add":"ip","aid":"alertId","host":"hostUrl","id":"USER_ID","net":"tcp","path":"","port":"Port","ps":"PROFILE_DISPLAY_NAME","scy":"auto","sni":"","tls":"","type":"http","v":"2"}```
 
 * make it base 64 [online base64 encoder](https://www.base64encode.org/)
 * use this pathern ```vmess://{BASE64}```
 
 shadow socks:
+* chacha20-ietf-poly1305:**UUID**
+* make it base 64 [online base64 encoder](https://www.base64encode.org/)
+* use this pathern ```ss://{BASE64}@ip:port#%remark```
 
